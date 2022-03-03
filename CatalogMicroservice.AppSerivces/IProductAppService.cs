@@ -13,11 +13,11 @@ namespace CatalogMicroservice.AppSerivces
         //Get all
         Task<List<Product>> GetProductAllAsync();
         //Create
-        Task<int> AddProductAsync(Product product);
+        Task AddProductAsync(Product product);
         //Delete
         Task DeleteProductAsync(int productId);
         //Get ID
-        Task<MakeAppService> GetProductAsync(int productId);
+        Task<Product> GetProductAsync(int productId);
         //Update
         Task EditProductAsync(Product product);
 

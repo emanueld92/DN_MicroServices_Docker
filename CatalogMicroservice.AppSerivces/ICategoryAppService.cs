@@ -10,13 +10,13 @@ namespace CatalogMicroservice.AppSerivces
     public interface ICategoryAppService
     {
         //Get all
-        Task<List<Category>> GetCategoryAllAsync();
+        Task<IList<Category>> GetCategoryAllAsync();
         //Create
-        Task<int> AddCategoryAsync(Category category);
+        Task AddCategoryAsync(Category category);
         //Delete
         Task DeleteCategoryAsync(int categoryId);
         //Get ID
-        Task<MakeAppService> GetCategoryAsync(int categoryId);
+        Task<Category> GetCategoryAsync(int categoryId);
         //Update
         Task EditCategoryAsync(Category category);
 

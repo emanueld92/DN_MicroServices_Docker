@@ -1,4 +1,6 @@
 ﻿using CatalogMicroservice.Core.Entity;
+using CatalogMicroservice.DataAccess;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,29 +11,51 @@ namespace CatalogMicroservice.AppSerivces
 {
     public class CategoryAppService : ICategoryAppService
     {
-        public Task<int> AddCategoryAsync(Category category)
+        private readonly CatalogMicroserviceContext _dataContext;
+        public CategoryAppService(CatalogMicroserviceContext dataContext) => _dataContext = dataContext;
+
+
+        //Insert
+        public async Task AddCategoryAsync(Category category)
         {
-            throw new NotImplementedException();
+            await _dataContext.Categories.AddAsync(category);
+            await _dataContext.SaveChangesAsync();
         }
 
-        public Task DeleteCategoryAsync(int categoryId)
+        //Delte
+        public async Task DeleteCategoryAsync(int categoryId)
         {
-            throw new NotImplementedException();
+            var entity = await _dataContext.Categories.FindAsync(categoryId);
+            _dataContext.Categories.Remove(entity);
+            await _dataContext.SaveChangesAsync();
         }
 
-        public Task EditCategoryAsync(Category category)
+        //Update
+
+        public async Task EditCategoryAsync(Category category)
         {
-            throw new NotImplementedException();
+            var entity = await _dataContext.Categories.FindAsync(category.IdCategory);
+            entity.NameCategory = category.NameCategory;
+            await _dataContext.SaveChangesAsync();
+
         }
 
-        public Task<List<Category>> GetCategoryAllAsync()
+        //Get all
+        public async Task<IList<Category>> GetCategoryAllAsync()
         {
-            throw new NotImplementedException();
+            var result = await _dataContext.Categories.ToListAsync();
+            return result;
+        }
+        //Get Id
+        public async Task<Category> GetCategoryAsync(int categoryId)
+        {
+            var entity = await _dataContext.Categories.FindAsync(categoryId);
+
+            return entity;
         }
 
-        public Task<MakeAppService> GetCategoryAsync(int categoryId)
-        {
-            throw new NotImplementedException();
-        }
+
+
+
     }
 }
