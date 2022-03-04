@@ -1,0 +1,15 @@
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.deps.json
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\ref\MicroservicioVentas.EntityFramework.dll
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.Core.dll
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.Core.pdb
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.csproj.CopyComplete
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\ref\MicroservicioVentas.EntityFramework.dll
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb

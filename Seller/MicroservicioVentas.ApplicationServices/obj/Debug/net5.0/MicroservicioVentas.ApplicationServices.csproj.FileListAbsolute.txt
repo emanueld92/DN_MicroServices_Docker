@@ -1,0 +1,5 @@
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.CoreCompileInputs.cache
