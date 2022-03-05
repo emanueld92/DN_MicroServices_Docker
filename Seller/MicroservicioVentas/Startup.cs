@@ -1,9 +1,11 @@
 using MicroservicioVentas.ApplicationServices.ProductSales;
 using MicroservicioVentas.ApplicationServices.Sellers;
+using MicroservicioVentas.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -29,11 +31,18 @@ namespace MicroservicioVentas
         public void ConfigureServices(IServiceCollection services)
         {
 
+            string connectionString = Configuration.GetConnectionString("Default");
+
+            services.AddDbContext<MicroservicioVentasDataContext>(options =>
+            options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroservicioVentas", Version = "v1" });
             });
+
+
 
             services.AddTransient<ISellerAppService, SellerAppService>();
             services.AddTransient<IProductSaleAppService, ProductSaleAppService>();
