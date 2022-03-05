@@ -11,7 +11,7 @@ namespace CatalogMicroservice.AppSerivces
     {
 
         //Get all
-        Task<List<Product>> GetProductAllAsync();
+        Task<IList<Product>> GetProductAllAsync();
         //Create
         Task AddProductAsync(Product product);
         //Delete

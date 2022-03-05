@@ -15,5 +15,12 @@ namespace CatalogMicroservice.Core.Entity
         [StringLength(20)]
         public string MakeName { get; set; }
 
+        public List<Product> Products { get; set; }
+
+        public Make()
+        {
+            Products = new List<Product>();
+        }
+
     }
 }

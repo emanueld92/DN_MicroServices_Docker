@@ -13,7 +13,9 @@ namespace CatalogMicroservice.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductAppService _productAppService;
-        public ProductController(IProductAppService productAppService)=>productAppService=_productAppService;
+        public ProductController(IProductAppService productAppService){
+            _productAppService = productAppService;
+        }
         // GET: api/<ProductController>
         [HttpGet]
         public async Task<IEnumerable<Product>> Get()
@@ -34,6 +36,7 @@ namespace CatalogMicroservice.Controllers
         [HttpPost]
         public async Task Post([FromBody] Product value)
         {
+            
             await _productAppService.AddProductAsync(value);
         }
 

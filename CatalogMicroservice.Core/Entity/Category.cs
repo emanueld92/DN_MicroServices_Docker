@@ -16,5 +16,13 @@ namespace CatalogMicroservice.Core.Entity
         [StringLength(20)]
         public string NameCategory { get; set; }
 
+
+        public List<Product> Products { get; set; }
+
+        public Category()
+        {
+            Products = new List<Product>();
+        }
+
     }
 }

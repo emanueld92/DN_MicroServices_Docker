@@ -18,6 +18,8 @@ namespace CatalogMicroservice.AppSerivces
         //Insert
         public async Task AddProductAsync(Product product)
         {
+            
+
             await _dataContext.Products.AddAsync(product);
             await _dataContext.SaveChangesAsync();
         }
@@ -43,7 +45,7 @@ namespace CatalogMicroservice.AppSerivces
         }
 
         //Get all
-        public async Task<List<Product>> GetProductAllAsync()
+        public async Task<IList<Product>> GetProductAllAsync()
         {
             var result = await _dataContext.Products.ToListAsync();
             return result;

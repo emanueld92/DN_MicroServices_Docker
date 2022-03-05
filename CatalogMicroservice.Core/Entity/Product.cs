@@ -13,9 +13,14 @@ namespace CatalogMicroservice.Core.Entity
         public int IdProduct { get; set; }
         [Required]
         [StringLength(20)]
+
+
         public string NameProduct { get; set; }
+
+
         [Required]
         public Make Make { get; set; }
+        
         [Required]
         public Category Category { get; set; }
 

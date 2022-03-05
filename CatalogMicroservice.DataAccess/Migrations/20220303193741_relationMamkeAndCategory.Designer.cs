@@ -2,14 +2,16 @@
 using CatalogMicroservice.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CatalogMicroservice.DataAccess.Migrations
 {
     [DbContext(typeof(CatalogMicroserviceContext))]
-    partial class CatalogMicroserviceContextModelSnapshot : ModelSnapshot
+    [Migration("20220303193741_relationMamkeAndCategory")]
+    partial class relationMamkeAndCategory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
