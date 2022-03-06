@@ -1,8 +1,3 @@
-C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.AssemblyReference.cache
-C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.AssemblyInfoInputs.cache
-C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.AssemblyInfo.cs
-C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.CoreCompileInputs.cache
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.ApplicationServices.deps.json
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.ApplicationServices.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\ref\MicroservicioVentas.ApplicationServices.dll
@@ -11,6 +6,11 @@ C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\n
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.Core.pdb
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.CoreCompileInputs.cache
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.csproj.CopyComplete
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\ref\MicroservicioVentas.ApplicationServices.dll

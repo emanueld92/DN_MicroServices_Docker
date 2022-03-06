@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CatalogMicroservice.AppSerivces",
     "\\Seller\\MicroservicioVentas"
   ],
-  "SelectedNode": "\\CatalogMicroservice.AppSerivces\\CategoryAppService.cs",
+  "SelectedNode": "\\CatalogMicroservice",
   "PreviewInSolutionExplorer": false
 }

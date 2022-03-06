@@ -1,4 +1,6 @@
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.deps.json
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.runtimeconfig.json
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.runtimeconfig.dev.json
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\ref\MicroservicioVentas.EntityFramework.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb
@@ -13,3 +15,4 @@ C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\ref\MicroservicioVentas.EntityFramework.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb
+C:\Users\Ismael\source\repos\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.genruntimeconfig.cache

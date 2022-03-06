@@ -4,6 +4,8 @@ using MicroservicioVentas.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -34,7 +36,11 @@ namespace MicroservicioVentas
             string connectionString = Configuration.GetConnectionString("Default");
 
             services.AddDbContext<MicroservicioVentasDataContext>(options =>
-            options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+
+            services.AddTransient<ISellerAppService, SellerAppService>();
+            services.AddTransient<IProductSaleAppService, ProductSaleAppService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -42,10 +48,6 @@ namespace MicroservicioVentas
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroservicioVentas", Version = "v1" });
             });
 
-
-
-            services.AddTransient<ISellerAppService, SellerAppService>();
-            services.AddTransient<IProductSaleAppService, ProductSaleAppService>();
 
         }
 

@@ -40,7 +40,7 @@ namespace MicroservicioVentas.ApplicationServices.ProductSales
             return _repository.GetAsync(saleProductId);
         }
 
-        public async Task<IList<SaleProduct>> GetSaleProductsAsync()
+        public async Task<List<SaleProduct>> GetAllSaleProductAsync()
         {
             return await _repository.GetAllAsync().ToListAsync();
         }

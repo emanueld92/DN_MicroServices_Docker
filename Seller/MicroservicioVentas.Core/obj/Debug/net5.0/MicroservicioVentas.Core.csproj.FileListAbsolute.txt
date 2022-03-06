@@ -2,7 +2,6 @@ C:\Users\Ismael\source\repos\MicroservicioVentas.Core\bin\Debug\net5.0\Microserv
 C:\Users\Ismael\source\repos\MicroservicioVentas.Core\bin\Debug\net5.0\MicroservicioVentas.Core.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.Core\bin\Debug\net5.0\ref\MicroservicioVentas.Core.dll
 C:\Users\Ismael\source\repos\MicroservicioVentas.Core\bin\Debug\net5.0\MicroservicioVentas.Core.pdb
-C:\Users\Ismael\source\repos\MicroservicioVentas.Core\obj\Debug\net5.0\MicroservicioVentas.Core.csproj.AssemblyReference.cache
 C:\Users\Ismael\source\repos\MicroservicioVentas.Core\obj\Debug\net5.0\MicroservicioVentas.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ismael\source\repos\MicroservicioVentas.Core\obj\Debug\net5.0\MicroservicioVentas.Core.AssemblyInfoInputs.cache
 C:\Users\Ismael\source\repos\MicroservicioVentas.Core\obj\Debug\net5.0\MicroservicioVentas.Core.AssemblyInfo.cs

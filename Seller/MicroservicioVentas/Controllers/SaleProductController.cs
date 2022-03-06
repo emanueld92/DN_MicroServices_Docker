@@ -23,14 +23,16 @@ namespace MicroservicioVentas.Controllers
         [HttpGet]
         public async Task<IEnumerable<SaleProduct>> Get()
         {
-            return _manager.GetSaleProductsAsync();
+            return await _manager.GetAllSaleProductAsync();
         }
 
         // GET api/<SaleProductController>/5
         [HttpGet("{id}")]
-        public async Task< SaleProduct> Get(int id)
+        public async Task<SaleProduct> Get(int id)
         {
-            return _manager.GetSaleProductAsync(id);
+            var Saleproduct = await _manager.GetSaleProductAsync(id);
+
+            return Saleproduct;
         }
 
         // POST api/<SaleProductController>

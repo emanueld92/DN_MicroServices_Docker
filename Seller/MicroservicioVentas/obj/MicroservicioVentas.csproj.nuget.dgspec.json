@@ -159,9 +159,27 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -212,6 +230,9 @@
               },
               "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
                 "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
+              },
+              "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj"
               }
             }
           }
@@ -226,6 +247,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[5.0.3, )"
