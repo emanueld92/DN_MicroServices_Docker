@@ -1,6 +1,8 @@
 using MicroservicioVentas.ApplicationServices.ProductSales;
 using MicroservicioVentas.ApplicationServices.Sellers;
+using MicroservicioVentas.Core.Sellers;
 using MicroservicioVentas.EntityFramework;
+using MicroservicioVentas.EntityFramework.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -41,6 +43,8 @@ namespace MicroservicioVentas
 
             services.AddTransient<ISellerAppService, SellerAppService>();
             services.AddTransient<IProductSaleAppService, ProductSaleAppService>();
+            services.AddTransient<IRepository<int, Seller>, SellerRepository>();
+            services.AddTransient<IRepository<int, SaleProduct>, SaleProductRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

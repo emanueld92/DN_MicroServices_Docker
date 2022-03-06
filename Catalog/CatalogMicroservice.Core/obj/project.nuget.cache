@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIagasOZCS4Zlzbq2POZU47dj9luOXBYwmKUyGWWrdEK0qfjzYwntUqNOXYFrRG4tTe4nt4syJlQaHHId9+9AA==",
+  "dgSpecHash": "Fe5zmWPxdtAaDExI3vm9CaaF2LgBbGr/lE0Gut7OkKXgPX84O4GMMtLSsg0T/6/NFi94pd37fpzg5oBaOMg2wA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
+  "projectFilePath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

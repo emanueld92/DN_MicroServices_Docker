@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {}
+    "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
+    "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
         "projectName": "MicroservicioVentas.Core",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
-        "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\obj\\",
+        "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
+        "packagesPath": "C:\\Users\\Emanueld92\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emanueld92\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
+    "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj",
         "projectName": "MicroservicioVentas.EntityFramework",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj",
-        "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\obj\\",
+        "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\Emanueld92\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emanueld92\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
-                "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
+              "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
+                "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
               }
             }
           }
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

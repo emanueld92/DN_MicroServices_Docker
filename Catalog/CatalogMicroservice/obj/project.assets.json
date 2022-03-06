@@ -1124,11 +1124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice\\CatalogMicroservice.csproj",
+      "projectUniqueName": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice\\CatalogMicroservice.csproj",
       "projectName": "CatalogMicroservice",
-      "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice\\CatalogMicroservice.csproj",
+      "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice\\CatalogMicroservice.csproj",
       "packagesPath": "C:\\Users\\Emanueld92\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice\\obj\\",
+      "outputPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Emanueld92\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1145,14 +1145,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.AppSerivces\\CatalogMicroservice.AppSerivces.csproj": {
-              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.AppSerivces\\CatalogMicroservice.AppSerivces.csproj"
+            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.AppSerivces\\CatalogMicroservice.AppSerivces.csproj": {
+              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.AppSerivces\\CatalogMicroservice.AppSerivces.csproj"
             },
-            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj": {
-              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj"
+            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj": {
+              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj"
             },
-            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.DataAccess\\CatalogMicroservice.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.DataAccess\\CatalogMicroservice.DataAccess.csproj"
+            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.DataAccess\\CatalogMicroservice.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.DataAccess\\CatalogMicroservice.DataAccess.csproj"
             }
           }
         }

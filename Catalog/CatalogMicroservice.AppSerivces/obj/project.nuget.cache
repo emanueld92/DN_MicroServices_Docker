@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qHxUGWWAeOfzy+FC+cqzISZYRvKhlD0ntW3PVVdxrptrc5XklIJQXJv2xoNEJ+zNIgROWl9v5osh1zHdvDk8KQ==",
+  "dgSpecHash": "nK5UmgYumUg6nqf+wuXzUciFV6KohGwWv+No8Y7brdbZHrLAzBgxl+fhKpxiLaQ0PJLAakM4mpHDoD8jmVmvIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\CatalogMicroservice.AppSerivces\\CatalogMicroservice.AppSerivces.csproj",
+  "projectFilePath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.AppSerivces\\CatalogMicroservice.AppSerivces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emanueld92\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Emanueld92\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
