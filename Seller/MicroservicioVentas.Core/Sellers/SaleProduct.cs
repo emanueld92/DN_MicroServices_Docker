@@ -18,7 +18,12 @@ namespace MicroservicioVentas.Core.Sellers
 
         //public Product Product { get; set; }
 
-        public Seller Seller { get; set; }
+        public List<Seller> Seller { get; set; }
+
+        public SaleProduct()
+        {
+            Seller = new List<Seller>();
+        }
 
     }
 }

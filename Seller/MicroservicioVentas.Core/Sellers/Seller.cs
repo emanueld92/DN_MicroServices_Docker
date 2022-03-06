@@ -20,5 +20,8 @@ namespace MicroservicioVentas.Core.Sellers
         [StringLength(100)]
         public string password { get; set; }
 
+        public SaleProduct saleProduct { get; set; }
+
+
     }
 }

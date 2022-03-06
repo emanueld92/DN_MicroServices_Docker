@@ -10,6 +10,11 @@ namespace MicroservicioVentas.EntityFramework
 {
     public class MicroservicioVentasDataContext : DbContext
     {
+
+        public MicroservicioVentasDataContext(DbContextOptions<MicroservicioVentasDataContext> options) : base(options)
+        {
+
+        }
         public DbSet<Seller> sellers { get; set; }
 
 

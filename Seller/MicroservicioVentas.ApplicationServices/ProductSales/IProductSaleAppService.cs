@@ -9,7 +9,7 @@ namespace MicroservicioVentas.ApplicationServices.ProductSales
 {
     public interface IProductSaleAppService
     {
-        Task<List<SaleProduct>> GetSaleProductsAsync();
+        Task<IList<SaleProduct>> GetSaleProductsAsync();
 
         Task<int> AddSaleProductAsync(SaleProduct saleProduct);
 

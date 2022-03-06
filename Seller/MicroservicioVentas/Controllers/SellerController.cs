@@ -1,9 +1,10 @@
 ﻿using MicroservicioVentas.ApplicationServices.Sellers;
 using MicroservicioVentas.Core.Sellers;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MicroservicioVentas.Controllers
 {
@@ -18,40 +19,44 @@ namespace MicroservicioVentas.Controllers
             _manager = manager;
 
         }
-
+        // GET: api/<TestController>
         [HttpGet]
-
-        public async Task<ActionResult<IEnumerable<Seller>>> Get()
+        public async  Task<IEnumerable<Seller>> Get()
         {
             return await _manager.GetSellersAsync();
-            
         }
 
-        [HttpGet("id")]
-        public  async Task<ActionResult<Seller>> Get(int id)
+        // GET api/<TestController>/5
+        [HttpGet("{id}")]
+        public async Task <Seller> Get(int id)
         {
             var seller = await _manager.GetSellerAsync(id);
 
-            return seller; 
-
+            return seller;
         }
 
-        [HttpDelete("id")]
-        public async Task<ActionResult> Delete(int id)
+        // POST api/<TestController>
+        [HttpPost]
+        public async Task Post([FromBody] Seller seller)
         {
-           await _manager.DeleteSellerAsync(id);
+            await _manager.AddSellerAsync(seller);
 
-            return NoContent();
         }
 
+        // PUT api/<TestController>/5
         [HttpPut("{id}")]
-
-        public async Task<ActionResult> Put(  Seller seller)
+        public async Task Put(int id, [FromBody] Seller seller)
         {
+            seller.Id = id;
             await _manager.EditMemberAsync(seller);
-            return NoContent();
 
         }
 
+        // DELETE api/<TestController>/5
+        [HttpDelete("{id}")]
+        public async Task Delete(int id)
+        {
+            await _manager.DeleteSellerAsync(id);
+        }
     }
 }
