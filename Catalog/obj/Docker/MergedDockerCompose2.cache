@@ -1,0 +1,60 @@
+services:
+  catalog-database:
+    environment:
+      MYSQL_DATABASE: catalog
+      MYSQL_PASSWORD: superpassword123
+      MYSQL_ROOT_PASSWORD: RootSuperRoot123
+      MYSQL_USER: dbuser
+    image: mysql:8.0.25
+    ports:
+    - published: 3366
+      target: 3306
+    restart: always
+    volumes:
+    - catalog-datafiles:/var/lib/mysql:rw
+  catalogmicroservice:
+    build:
+      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice
+      dockerfile: CatalogMicroservice/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CatalogMicroservice
+      target: base
+    container_name: CatalogMicroservice_2
+    depends_on:
+      catalog-database:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBHOST: catalog-database
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: catalogmicroservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/CatalogMicroservice.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5014
+      target: 80
+    - target: 80
+    - published: 732
+      target: 443
+    - target: 443
+    restart: always
+    tty: true
+    volumes:
+    - C:\Users\Emanueld92\source\repos\CatalogMicroservice\CatalogMicroservice:/app:rw
+    - C:\Users\Emanueld92\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Emanueld92\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Emanueld92\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Emanueld92\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\Emanueld92\source\repos\CatalogMicroservice:/src:rw
+version: '3.4'
+volumes:
+  catalog-datafiles: {}

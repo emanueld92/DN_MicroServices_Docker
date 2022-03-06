@@ -1,0 +1,40 @@
+services:
+  catalog-database:
+    environment:
+      MYSQL_DATABASE: catalog
+      MYSQL_PASSWORD: superpassword123
+      MYSQL_ROOT_PASSWORD: RootSuperRoot123
+      MYSQL_USER: dbuser
+    image: mysql:8.0.25
+    ports:
+    - published: 3366
+      target: 3306
+    restart: always
+    volumes:
+    - catalog-datafiles:/var/lib/mysql:rw
+  catalogmicroservice:
+    build:
+      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice
+      dockerfile: CatalogMicroservice/Dockerfile
+    depends_on:
+      catalog-database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBHOST: catalog-database
+    image: catalogmicroservice
+    ports:
+    - published: 5014
+      target: 80
+    - target: 80
+    - published: 732
+      target: 443
+    - target: 443
+    restart: always
+    volumes:
+    - C:\Users\Emanueld92\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Emanueld92\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
+volumes:
+  catalog-datafiles: {}

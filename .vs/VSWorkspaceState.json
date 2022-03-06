@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Seller",
     "\\Seller\\MicroservicioVentas"
   ],
-  "SelectedNode": "\\CatalogMicroservice",
+  "SelectedNode": "\\Seller\\MicroservicioVentas\\MicroservicioVentas.sln",
   "PreviewInSolutionExplorer": false
 }
