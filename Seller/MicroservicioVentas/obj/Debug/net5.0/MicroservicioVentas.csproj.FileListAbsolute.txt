@@ -54,7 +54,6 @@ C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\MicroservicioVentas.runtimeconfig.json
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\MicroservicioVentas.runtimeconfig.dev.json
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\MicroservicioVentas.dll
-C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\ref\MicroservicioVentas.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\MicroservicioVentas.pdb
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -96,3 +95,4 @@ C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\obj\Debug\net5.0\ref\MicroservicioVentas.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\obj\Debug\net5.0\MicroservicioVentas.pdb
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\obj\Debug\net5.0\MicroservicioVentas.genruntimeconfig.cache
+C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas\obj\Debug\net5.0\refint\MicroservicioVentas.dll

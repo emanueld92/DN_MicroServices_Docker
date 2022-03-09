@@ -17,7 +17,6 @@ C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\n
 C:\Users\Ismael\source\repos\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.pdb
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.ApplicationServices.deps.json
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.ApplicationServices.dll
-C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\ref\MicroservicioVentas.ApplicationServices.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.ApplicationServices.pdb
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.Core.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
@@ -32,3 +31,4 @@ C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\ref\MicroservicioVentas.ApplicationServices.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\MicroservicioVentas.ApplicationServices.pdb
+C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.ApplicationServices\obj\Debug\net5.0\refint\MicroservicioVentas.ApplicationServices.dll

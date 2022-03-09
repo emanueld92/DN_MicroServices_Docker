@@ -20,7 +20,6 @@ C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.runtimeconfig.json
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.runtimeconfig.dev.json
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.dll
-C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\ref\MicroservicioVentas.EntityFramework.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.Core.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\bin\Debug\net5.0\MicroservicioVentas.Core.pdb
@@ -34,3 +33,4 @@ C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\ref\MicroservicioVentas.EntityFramework.dll
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.pdb
 C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\MicroservicioVentas.EntityFramework.genruntimeconfig.cache
+C:\Users\Emanueld92\source\repos\CatalogMicroservice\Seller\MicroservicioVentas.EntityFramework\obj\Debug\net5.0\refint\MicroservicioVentas.EntityFramework.dll

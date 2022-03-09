@@ -56,7 +56,7 @@ namespace MicroservicioVentas
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, MicroservicioVentasDataContext db)
         {
             if (env.IsDevelopment())
             {
@@ -64,7 +64,7 @@ namespace MicroservicioVentas
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MicroservicioVentas v1"));
             }
-
+            db.Database.Migrate();
             app.UseHttpsRedirection();
 
             app.UseRouting();
