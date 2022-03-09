@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {}
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
         "projectName": "MicroservicioVentas.Core",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
+        "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
         "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\obj\\",
+        "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",

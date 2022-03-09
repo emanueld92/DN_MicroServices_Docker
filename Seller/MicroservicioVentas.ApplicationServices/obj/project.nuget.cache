@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mMHoYqZSVxMdd7SmRUpbA2IkmhIlQc28icPYfyCOOo/lxYpxOPNQ9piS4GHL7icS75bmde31CTsWboZ9dGHglQ==",
+  "dgSpecHash": "kYF4hkg2IF62WHJde+p93KNFCc35zI12cNvgQ8nxZ2SCF73kIZMs8/+ZThdRu2HHppn6DjPyNb3wEm31KfmczQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj",
+  "projectFilePath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.11\\microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",

@@ -1,0 +1,70 @@
+services:
+  catalog-database:
+    environment:
+      MYSQL_DATABASE: catalog
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: emanueld92
+    image: mysql:8.0.25
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 3306
+      published: 3366
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: catalog-datafiles
+      target: /var/lib/mysql
+      volume: {}
+  catalogmicroservice:
+    build:
+      context: C:\Users\Ismael\Source\Repos\DN_MicroServices_Docker\Catalog
+      dockerfile: CatalogMicroservice/Dockerfile
+    depends_on:
+      catalog-database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBHOST: catalog-database
+    image: catalogmicroservice
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: 5014
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: 732
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: C:\Users\Ismael\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Ismael\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose4300748054441258268_default
+volumes:
+  catalog-datafiles:
+    name: dockercompose4300748054441258268_catalog-datafiles

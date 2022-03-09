@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vsc5tFDF9T0bv+t3mT0XrSaqO/dl1yTF5avgH53T74/IJcmOtwxVnnSgmDu6xznpf64oxA+kFWEJaAQ28FJuvg==",
+  "dgSpecHash": "qjNVQkXXcP+mONZsRF3KGc1V/O0iEpIXJSkLxIkPbIYiVUckjqU8NrCSrt44DACQaADXuEkEpeUfauj727l5Jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj",
+  "projectFilePath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ismael\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",

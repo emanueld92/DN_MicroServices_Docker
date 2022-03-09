@@ -1228,11 +1228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas\\MicroservicioVentas.csproj",
+      "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas\\MicroservicioVentas.csproj",
       "projectName": "MicroservicioVentas",
-      "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas\\MicroservicioVentas.csproj",
+      "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas\\MicroservicioVentas.csproj",
       "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas\\obj\\",
+      "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1249,14 +1249,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj": {
-              "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj"
+            "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj"
             },
-            "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
-              "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
+            "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
+              "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
             },
-            "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\Ismael\\source\\repos\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj"
+            "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj"
             }
           }
         }
