@@ -1,6 +1,7 @@
 ﻿using CatalogMicroservice.Core.Entity;
 using CatalogMicroservice.DataAccess;
 using Microsoft.EntityFrameworkCore;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,50 +12,49 @@ namespace CatalogMicroservice.AppSerivces
 {
     public class CategoryAppService : ICategoryAppService
     {
-        private readonly CatalogMicroserviceContext _dataContext;
-        public CategoryAppService(CatalogMicroserviceContext dataContext) => _dataContext = dataContext;
+       
+        private readonly IRepository<int, Category> _repository;
+        public CategoryAppService(IRepository<int, Category> repository)
+        {
+            _repository = repository;
+        }
 
 
         //Insert
-        public async Task AddCategoryAsync(Category category)
+        public async Task<int> AddCategoryAsync(Category category)
         {
-            await _dataContext.Categories.AddAsync(category);
-            await _dataContext.SaveChangesAsync();
+            await _repository.AddAsync(category);
+
+            return category.IdCategory;
         }
 
-        //Delte
+        //Delete
         public async Task DeleteCategoryAsync(int categoryId)
         {
-            var entity = await _dataContext.Categories.FindAsync(categoryId);
-            _dataContext.Categories.Remove(entity);
-            await _dataContext.SaveChangesAsync();
+            await _repository.DeleteAsync(categoryId);
         }
 
         //Update
 
         public async Task EditCategoryAsync(Category category)
         {
-            var entity = await _dataContext.Categories.FindAsync(category.IdCategory);
-            entity.NameCategory = category.NameCategory;
-            await _dataContext.SaveChangesAsync();
+            await _repository.UpdateAsync(category);
 
         }
 
-        //Get all
+        //Get ALL
         public async Task<IList<Category>> GetCategoryAllAsync()
         {
-            var result = await _dataContext.Categories.ToListAsync();
-            return result;
+
+            return await _repository.GetAll();
         }
         //Get Id
         public async Task<Category> GetCategoryAsync(int categoryId)
         {
-            var entity = await _dataContext.Categories.FindAsync(categoryId);
+            return await _repository.GetAsync(categoryId);
 
-            return entity;
+            
         }
-
-
 
 
     }

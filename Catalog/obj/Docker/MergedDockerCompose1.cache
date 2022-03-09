@@ -2,9 +2,9 @@ services:
   catalog-database:
     environment:
       MYSQL_DATABASE: catalog
-      MYSQL_PASSWORD: superpassword123
-      MYSQL_ROOT_PASSWORD: RootSuperRoot123
-      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: emanueld92
     image: mysql:8.0.25
     ports:
     - published: 3366
@@ -14,7 +14,7 @@ services:
     - catalog-datafiles:/var/lib/mysql:rw
   catalogmicroservice:
     build:
-      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice
+      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice\Catalog
       dockerfile: CatalogMicroservice/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -49,12 +49,12 @@ services:
     restart: always
     tty: true
     volumes:
-    - C:\Users\Emanueld92\source\repos\CatalogMicroservice\CatalogMicroservice:/app:rw
+    - C:\Users\Emanueld92\source\repos\CatalogMicroservice\Catalog\CatalogMicroservice:/app:rw
     - C:\Users\Emanueld92\vsdbg\vs2017u5:/remote_debugger:rw
     - C:\Users\Emanueld92\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\Emanueld92\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
     - C:\Users\Emanueld92\.nuget\packages:/root/.nuget/packages:ro
-    - C:\Users\Emanueld92\source\repos\CatalogMicroservice:/src:rw
+    - C:\Users\Emanueld92\source\repos\CatalogMicroservice\Catalog:/src:rw
 version: '3.4'
 volumes:
   catalog-datafiles: {}

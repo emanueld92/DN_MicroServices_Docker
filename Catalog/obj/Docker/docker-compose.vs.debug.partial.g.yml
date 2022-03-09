@@ -3,7 +3,7 @@ version: '3.4'
 services:
   catalogmicroservice:
     image: catalogmicroservice:dev
-    container_name: CatalogMicroservice_2
+    container_name: CatalogMicroservice
     build:
       target: base
       labels:
@@ -14,8 +14,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\Emanueld92\source\repos\CatalogMicroservice\CatalogMicroservice:/app
-      - C:\Users\Emanueld92\source\repos\CatalogMicroservice:/src
+      - C:\Users\Emanueld92\source\repos\CatalogMicroservice\Catalog\CatalogMicroservice:/app
+      - C:\Users\Emanueld92\source\repos\CatalogMicroservice\Catalog:/src
       - C:\Users\Emanueld92\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Emanueld92\.nuget\packages\:/root/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

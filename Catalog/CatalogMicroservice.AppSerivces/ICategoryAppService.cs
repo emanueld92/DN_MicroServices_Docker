@@ -12,7 +12,7 @@ namespace CatalogMicroservice.AppSerivces
         //Get all
         Task<IList<Category>> GetCategoryAllAsync();
         //Create
-        Task AddCategoryAsync(Category category);
+        Task <int> AddCategoryAsync(Category category);
         //Delete
         Task DeleteCategoryAsync(int categoryId);
         //Get ID

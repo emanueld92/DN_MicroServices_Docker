@@ -3,7 +3,7 @@ version: '3.4'
 services:
   catalogmicroservice:
     image: catalogmicroservice:dev
-    container_name: CatalogMicroservice_2
+    container_name: CatalogMicroservice
     build:
       target: base
       labels:

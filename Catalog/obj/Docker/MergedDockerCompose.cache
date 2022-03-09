@@ -2,9 +2,9 @@ services:
   catalog-database:
     environment:
       MYSQL_DATABASE: catalog
-      MYSQL_PASSWORD: superpassword123
-      MYSQL_ROOT_PASSWORD: RootSuperRoot123
-      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: emanueld92
     image: mysql:8.0.25
     ports:
     - published: 3366
@@ -14,7 +14,7 @@ services:
     - catalog-datafiles:/var/lib/mysql:rw
   catalogmicroservice:
     build:
-      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice
+      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice\Catalog
       dockerfile: CatalogMicroservice/Dockerfile
     depends_on:
       catalog-database:
