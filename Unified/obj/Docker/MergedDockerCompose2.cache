@@ -1,0 +1,77 @@
+services:
+  catalog-database:
+    environment:
+      MYSQL_DATABASE: catalog
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: emanueld92
+    image: mysql:8.0.25
+    ports:
+    - published: 3366
+      target: 3306
+    restart: always
+    volumes:
+    - catalog-datafiles:/var/lib/mysql:rw
+  catalogmicroservice:
+    build:
+      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice\Unified
+      dockerfile: CatalogMicroservice/Dockerfile
+    depends_on:
+      catalog-database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBHOST: catalog-database
+    image: catalogmicroservice
+    ports:
+    - published: 5014
+      target: 80
+    - target: 80
+    - published: 732
+      target: 443
+    - target: 443
+    restart: always
+    volumes:
+    - C:\Users\Emanueld92\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Emanueld92\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  seller-database:
+    environment:
+      MYSQL_DATABASE: seller
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: ismaelroot
+    image: mysql:8.0.25
+    ports:
+    - published: 3367
+      target: 3306
+    restart: always
+    volumes:
+    - seller-datafiles:/var/lib/mysql:rw
+  sellermicroservice:
+    build:
+      context: C:\Users\Emanueld92\source\repos\CatalogMicroservice\Unified
+      dockerfile: MicroservicioVentas/Dockerfile
+    depends_on:
+      seller-database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBHOST: seller-database
+    image: microservicioventas
+    ports:
+    - published: 5015
+      target: 80
+    - target: 80
+    - published: 733
+      target: 443
+    - target: 443
+    restart: always
+    volumes:
+    - C:\Users\Emanueld92\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Emanueld92\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
+volumes:
+  catalog-datafiles: {}
+  seller-datafiles: {}
