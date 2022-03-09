@@ -1,6 +1,7 @@
 using CatalogMicroservice.AppSerivces;
-
+using CatalogMicroservice.Core.Entity;
 using CatalogMicroservice.DataAccess;
+using CatalogMicroservice.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -41,10 +42,16 @@ namespace CatalogMicroservice
           
             services.AddTransient<IProductAppService, ProductAppService>();
             services.AddTransient<IMakeAppService, MakeAppService>();
+            services.AddTransient<IRepository<int, Category>, CategoriesRepository>();
+            services.AddTransient<IRepository<int, Make>, MakesRepository>();
+            services.AddTransient<IRepository<int, Product>, ProductsRepository>();
             services.AddTransient<ICategoryAppService, CategoryAppService>();
 
-
-            services.AddControllers();
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;
+            });
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CatalogMicroservice", Version = "v1" });

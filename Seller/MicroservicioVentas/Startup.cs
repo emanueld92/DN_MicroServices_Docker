@@ -1,6 +1,8 @@
 using MicroservicioVentas.ApplicationServices.ProductSales;
 using MicroservicioVentas.ApplicationServices.Sellers;
+using MicroservicioVentas.Core.Sellers;
 using MicroservicioVentas.EntityFramework;
+using MicroservicioVentas.EntityFramework.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -41,6 +43,8 @@ namespace MicroservicioVentas
 
             services.AddTransient<ISellerAppService, SellerAppService>();
             services.AddTransient<IProductSaleAppService, ProductSaleAppService>();
+            services.AddTransient<IRepository<int, Seller>, SellerRepository>();
+            services.AddTransient<IRepository<int, SaleProduct>, SaleProductRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -52,7 +56,7 @@ namespace MicroservicioVentas
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, MicroservicioVentasDataContext db)
         {
             if (env.IsDevelopment())
             {
@@ -60,7 +64,7 @@ namespace MicroservicioVentas
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MicroservicioVentas v1"));
             }
-
+            db.Database.Migrate();
             app.UseHttpsRedirection();
 
             app.UseRouting();

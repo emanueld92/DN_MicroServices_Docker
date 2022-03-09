@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ismael\\.nuget\\packages\\": {}
+    "C:\\Users\\Emanueld92\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
       "projectName": "CatalogMicroservice.Core",
-      "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
-      "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Catalog\\CatalogMicroservice.Core\\obj\\",
+      "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
+      "packagesPath": "C:\\Users\\Emanueld92\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Emanueld92\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
