@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ICnubrQageCASXUsDUWA1Y39DhGPD/+93Y+u1CQ40FvFiRJAiA4EsSwZin1MltuN5EtbwTqltBHiG2yIPo9kcQ==",
+  "dgSpecHash": "grq13RCVorj2jv+xIeB0CwaZ1F1UKEJDJbjuuCWJzibaMPWhXJhBbZeo+wx/I+LIWNImNIbVf7T0X0u0gX182g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
+  "projectFilePath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

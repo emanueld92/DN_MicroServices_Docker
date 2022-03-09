@@ -12,7 +12,7 @@ namespace CatalogMicroservice.AppSerivces
         //Get all
         Task<IList<Make>> GetMakeAllAsync();
         //Create
-        Task <int>AddMakeAsync(Make make);
+        Task AddMakeAsync(Make make);
         //Delete
         Task DeleteMakeAsync(int makeId);
         //Get ID

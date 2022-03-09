@@ -11,45 +11,51 @@ namespace CatalogMicroservice.AppSerivces
 {
     public class ProductAppService : IProductAppService
     {
-        private readonly IRepository<int, Product> _repository;
-        public ProductAppService(IRepository<int, Product> repository)
-        {
-            _repository = repository;
-        }
+        private readonly CatalogMicroserviceContext _dataContext;
+        public ProductAppService(CatalogMicroserviceContext dataContext) => _dataContext = dataContext;
+
 
         //Insert
-        public async Task<int> AddProductAsync(Product product)
+        public async Task AddProductAsync(Product product)
         {
+            
 
-
-            await _repository.AddAsync(product);
-
-            return product.IdProduct;
+            await _dataContext.Products.AddAsync(product);
+            await _dataContext.SaveChangesAsync();
         }
 
         //Delte
         public async Task DeleteProductAsync(int productId)
         {
-            await _repository.DeleteAsync(productId);
+            var entity = await _dataContext.Products.FindAsync(productId);
+            _dataContext.Products.Remove(entity);
+            await _dataContext.SaveChangesAsync();
         }
 
         //Update
 
         public async Task EditProductAsync(Product product)
         {
-            await _repository.UpdateAsync(product);
+            var entity = await _dataContext.Products.FindAsync(product.IdProduct);
+            entity.NameProduct= product.NameProduct;
+            entity.Make = product.Make;
+            entity.Category = product.Category;
+            await _dataContext.SaveChangesAsync();
 
         }
 
         //Get all
         public async Task<IList<Product>> GetProductAllAsync()
         {
-            return await _repository.GetAll();
+            var result = await _dataContext.Products.ToListAsync();
+            return result;
         }
         //Get Id
         public async Task<Product> GetProductAsync(int productId)
         {
-            return await _repository.GetAsync(productId);
+            var entity = await _dataContext.Products.FindAsync(productId);
+
+            return entity;
         }
 
 

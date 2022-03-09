@@ -1223,19 +1223,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emanueld92\\.nuget\\packages\\": {}
+    "C:\\Users\\Ismael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas\\MicroservicioVentas.csproj",
+      "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas\\MicroservicioVentas.csproj",
       "projectName": "MicroservicioVentas",
-      "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas\\MicroservicioVentas.csproj",
-      "packagesPath": "C:\\Users\\Emanueld92\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas\\obj\\",
+      "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas\\MicroservicioVentas.csproj",
+      "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Emanueld92\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1249,14 +1249,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj": {
-              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj"
+            "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.ApplicationServices\\MicroservicioVentas.ApplicationServices.csproj"
             },
-            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
-              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
+            "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj": {
+              "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.Core\\MicroservicioVentas.Core.csproj"
             },
-            "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj"
+            "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Seller\\MicroservicioVentas.EntityFramework\\MicroservicioVentas.EntityFramework.csproj"
             }
           }
         }
@@ -1300,6 +1300,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1308,7 +1314,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

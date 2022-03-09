@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fe5zmWPxdtAaDExI3vm9CaaF2LgBbGr/lE0Gut7OkKXgPX84O4GMMtLSsg0T/6/NFi94pd37fpzg5oBaOMg2wA==",
+  "dgSpecHash": "ADBeAVEPsIlppgY/Ub4J69gfi/+LoP0gqSUAPGfTPiiazeE81Yyft9T4j5TAwO7p9I/tWD0xdX9ynCWvfyNuRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanueld92\\source\\repos\\CatalogMicroservice\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
+  "projectFilePath": "C:\\Users\\Ismael\\Source\\Repos\\DN_MicroServices_Docker\\Catalog\\CatalogMicroservice.Core\\CatalogMicroservice.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

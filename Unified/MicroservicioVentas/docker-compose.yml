@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  microservicioventas:
-    image: ${DOCKER_REGISTRY-}microservicioventas
-    build:
-      context: .
-      dockerfile: Dockerfile

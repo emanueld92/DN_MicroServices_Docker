@@ -12,46 +12,47 @@ namespace CatalogMicroservice.AppSerivces
 {
     public class MakeAppService : IMakeAppService
     {
-        private readonly IRepository<int, Make> _repository;
-        public MakeAppService(IRepository<int, Make> repository)
-        {
-            _repository = repository;
-        }
+        private readonly CatalogMicroserviceContext _dataContext;
+        public MakeAppService(CatalogMicroserviceContext dataContext) => _dataContext = dataContext; 
 
 
         //Insert
-        public async Task<int> AddMakeAsync(Make make)
+        public async Task AddMakeAsync(Make make)
         {
-            await _repository.AddAsync(make);
-
-            return make.IdMake;
+            await _dataContext.Makes.AddAsync(make);
+            await _dataContext.SaveChangesAsync();
         }
 
         //Delte
         public async Task DeleteMakeAsync(int makeId)
         {
-            await _repository.DeleteAsync(makeId);
+            var entity = await _dataContext.Makes.FindAsync(makeId);
+             _dataContext.Makes.Remove(entity);
+            await _dataContext.SaveChangesAsync();
         }
         
         //Update
 
         public async Task EditMakeAsync(Make make)
         {
-            await _repository.UpdateAsync(make);
+            var entity = await _dataContext.Makes.FindAsync(make.IdMake);
+            entity.MakeName = make.MakeName;
+            await _dataContext.SaveChangesAsync();
 
         }
 
         //Get all
         public async Task<IList<Make>> GetMakeAllAsync()
         {
-            return await _repository.GetAll();
+            var result = await _dataContext.Makes.ToListAsync();
+            return result;
         }
         //Get Id
         public async Task<Make> GetMakeAsync(int makeId)
         {
-            return await _repository.GetAsync(makeId);
+            var entity = await _dataContext.Makes.FindAsync(makeId);
 
-            
+            return entity;
         }
 
 
